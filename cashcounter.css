@@ -1,0 +1,161 @@
+body {
+    font-size:18px;	
+}
+
+.outer-wrap {
+	margin:0 auto 0;
+	width:740px;
+}
+
+.cash-wraper {
+	float:left;
+}
+
+.cash-header {
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:10px;
+	padding: 5px;
+	border:1px solid #EAEAEA;
+    text-shadow: none;
+}
+
+.cash-container {
+    text-shadow: none;
+    font-size: 13px;
+	float:left;
+	clear:none;
+	border-right:1px solid #ccc;
+	margin-bottom: 7.5px;
+	padding-bottom: 7.5px;
+}
+
+.cash-common-terminal {
+	padding-left:5px;
+	padding-right:5px;	
+	float:left;	
+	width:90px;
+}
+
+.cash-container-header {
+	clear:left;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	height:21px;
+	margin-bottom:5px;
+}
+
+.cash-container-header select{
+	width:80px;
+	height:19px;
+	border: 1px ridge #09F;	
+}
+
+.cash-container-content {
+	padding-top:5px;
+	clear:left;	
+}
+
+.cash-container-column {
+	clear:left;
+	height:22px;
+	line-height:22px;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-top:1px;
+	margin-bottom:1px;	
+}
+
+.hover {
+	background:#333;
+	color:#fff;
+	height:22px;
+}
+
+.cash-container-column input {
+	text-align:right;
+	width:60px;
+	border: 1px ridge #333;
+	background-color: #F1F1F1;
+}
+.cash-options{
+	margin-left:-15px;
+}
+.cash-options select {
+	width:70px;
+	height:20px;
+	margin-top:-2px;
+	line-height:20px;
+	font-size:11px;
+}
+
+.cash-common-terminal {
+	width:72px;	
+	margin-left:10px;	
+}
+
+.cash-common-ecterminal {
+	width:155px;	
+}
+.cash-container-summary {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	padding-top:5px;
+	margin-top:5px;
+	height:20px;
+}
+
+.cash-common {
+	padding-left:5px;
+	padding-right:5px;	
+	float:left;	
+	width:70px;
+}
+
+.summary {
+	width:90px;	
+}
+
+.border-top {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	padding-top:2px;
+	margin-top:2px;	
+}
+
+@media print {  
+  @page {
+     size: A4 landscape;
+  }
+
+  * {
+		font-size: 12px;  
+		zoom:100%;
+		border:none;
+  }
+  
+  header {
+    display:none;
+  }
+  
+  input {
+	  border:1px solid #FFF;
+	  background:#FFF;  
+  }
+  
+  .cash-container-column input {
+	  border:1px solid #FFF;
+	  background:#FFF; 
+  }
+  .button {
+	  display:none;
+  }
+  
+  .main-option{
+	  border:none;
+  }
+}
